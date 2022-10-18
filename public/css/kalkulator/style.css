@@ -1,0 +1,64 @@
+* {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.display {
+    width: 640px;
+    height: 100px;
+    margin: 50px auto 0px;
+    padding: 10px auto;
+}
+
+.textview {
+    color: white;
+    font-size: 70px;
+    width: 640px;
+    height: 100px;
+    border: none;
+    text-align: right;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1px;
+    width: 700px;
+    margin: 30px auto;
+}
+
+.btn-item .button {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 45px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.colour .button {
+    color: rgb(0, 128, 255);
+}
+
+.button:hover {
+    background-color: rgb(0, 128, 255);
+    ;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.colour .button:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.equal .button {
+    color: white;
+    background-color: rgba(0, 128, 255, 0.5);
+}
+
+.equal .button:hover {
+    background-color: rgb(0, 128, 255);
+}

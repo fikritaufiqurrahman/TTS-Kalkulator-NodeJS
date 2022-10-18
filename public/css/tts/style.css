@@ -1,0 +1,163 @@
+    * {
+        font-family: "Lucida Grande";
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+        padding: 3px;
+    }
+    
+    li {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+    
+    .content {
+        width: 100%;
+        height: 650px;
+        border: 1px solid black;
+    }
+    
+    .content-left {
+        width: 50%;
+        height: 400px;
+        padding-left: 20px;
+        float: left;
+    }
+    
+    .content-left p {
+        font-size: larger;
+        font-weight: bold;
+    }
+    
+    .content-right {
+        width: 50%;
+        height: 400px;
+        float: right;
+        margin-bottom: 100px;
+    }
+    
+    .content-right .boxs {
+        padding: 0;
+        height: 30px;
+        width: fit-content;
+    }
+    
+    .box {
+        float: left;
+        background-color: black;
+        border: 1px solid black;
+        width: 40px;
+        height: 30px;
+        margin: 1px;
+    }
+    
+    .white {
+        background-color: white;
+    }
+    
+    .number {
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .number p {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+        text-align: left;
+    }
+    
+    .number p {
+        margin-bottom: -10px;
+    }
+    
+    .display-answer p {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 5px;
+    }
+    
+    #st1,
+    #st2,
+    #st3,
+    #st4,
+    #st5,
+    #st6 {
+        visibility: hidden;
+    }
+    
+    #dt1,
+    #dt2,
+    #dt3,
+    #dt4,
+    #dt5,
+    #dt6,
+    #dt7 {
+        visibility: hidden;
+    }
+    
+    #dd1,
+    #dd2,
+    #dd3,
+    #dd4,
+    #dd5,
+    #dd6,
+    #dd7 {
+        visibility: hidden;
+    }
+    
+    #tt1,
+    #tt2,
+    #tt3,
+    #tt4,
+    #tt5,
+    #tt6,
+    #tt7,
+    #tt8,
+    #tt9 {
+        visibility: hidden;
+    }
+    
+    #ed1,
+    #ed2,
+    #ed3,
+    #ed4,
+    #ed5,
+    #ed6,
+    #ed7 {
+        visibility: hidden;
+    }
+    
+    #ld1,
+    #ld2,
+    #ld3,
+    #ld4 {
+        visibility: hidden;
+    }
+    
+    #end1,
+    #end2,
+    #end3,
+    #end4,
+    #end5 {
+        visibility: hidden;
+    }
+    
+    .content-bottom {
+        display: inline-block;
+        border-top: 1px solid grey;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .bottom {
+        width: 1170px;
+        margin: 0 auto;
+        text-align: center;
+    }
