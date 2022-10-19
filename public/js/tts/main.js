@@ -1,4 +1,4 @@
-function jawaban() {
+function answer() {
     let jawaban = document.getElementById("ans").value;
     let input = document.getElementById("fname").value;
     input = input.toLowerCase();
