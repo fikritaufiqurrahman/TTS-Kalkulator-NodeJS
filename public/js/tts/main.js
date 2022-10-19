@@ -1,8 +1,8 @@
 function jawaban() {
-    let x = document.getElementById("ans").value;
-    let y = document.getElementById("fname").value;
-    y = y.toLowerCase();
-    if (x == y && x == "takjil") {
+    let jawaban = document.getElementById("ans").value;
+    let input = document.getElementById("fname").value;
+    input = input.toLowerCase();
+    if (jawaban == input && jawaban == "takjil") {
         benar();
         for (i = 1; i <= 6; i++) {
             if (i == 2) {
@@ -12,7 +12,7 @@ function jawaban() {
                 document.getElementById("st" + i).style.visibility = 'visible';
             }
         }
-    } else if (x == y && x == "tadarus") {
+    } else if (jawaban == input && jawaban == "tadarus") {
         benar();
         for (i = 1; i <= 8; i++) {
             if (i == 1) {
@@ -25,12 +25,12 @@ function jawaban() {
                 document.getElementById("dt" + i).style.visibility = 'visible';
             }
         }
-    } else if (x == y && x == "taraweh") {
+    } else if (jawaban == input && jawaban == "taraweh") {
         benar();
         for (i = 1; i <= 7; i++) {
             document.getElementById("dd" + i).style.visibility = 'visible';
         }
-    } else if (x == y && x == "eidulfitr") {
+    } else if (jawaban == input && jawaban == "eidulfitr") {
         benar();
         for (i = 1; i <= 9; i++) {
             if (i == 1) {
@@ -41,17 +41,17 @@ function jawaban() {
                 document.getElementById("tt" + i).style.visibility = 'visible';
             }
         }
-    } else if (x == y && x == "ramadan") {
+    } else if (jawaban == input && jawaban == "ramadan") {
         benar();
         for (i = 1; i <= 7; i++) {
             document.getElementById("ed" + i).style.visibility = 'visible';
         }
-    } else if (x == y && x == "haus") {
+    } else if (jawaban == input && jawaban == "haus") {
         benar();
         for (i = 1; i <= 4; i++) {
             document.getElementById("ld" + i).style.visibility = 'visible';
         }
-    } else if (x == y && x == "sahur") {
+    } else if (jawaban == input && jawaban == "sahur") {
         benar();
         for (i = 1; i <= 5; i++) {
             document.getElementById("end" + i).style.visibility = 'visible';
